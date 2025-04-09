@@ -1,0 +1,114 @@
+.modal-hotro .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    z-index: 100000
+}
+
+.modal-hotro .avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* đảm bảo ảnh không bị méo */
+    border: 2px solid #ccc;
+    /* viền nhẹ */
+}
+
+.modal-hotro .item-noidung {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+.modal-dialog .item-user span {
+    display: block;
+    font-size: 14px;
+}
+
+.modal-dialog .content-box {
+    margin: 10px;
+    font-size: 15px;
+    display: inline-block;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.modal-dialog .comment-box {
+    margin: 10px;
+    display: flex;
+    font-size: 14px;
+    background-color: #e6e7e7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.modal-dialog .box-scroll {
+    overflow-y: auto;
+    height: 75vh;
+}
+
+.modal-dialog .comment-box .avatar img {
+    width: 40px;
+    height: 40px;
+}
+
+.modal-dialog .comment-box .content-comment {}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-row img {
+    height: 100px;
+}
+
+.box-add-comment {
+    padding: 10px;
+    position: relative;
+}
+
+.box-add-comment .line-cm {
+    padding-top: 10px;
+    border-top: 2px solid #dce6e6;
+}
+
+.box-add-comment textarea {
+    padding-right: 50px;
+    resize: none
+}
+
+.box-add-comment .comment-funcs {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    right: 25px;
+    top: 20px;
+    height: 200px;
+}
+.list-group-cmt .list-group-item {
+    padding: 3px;
+    font-size: 12px;
+}
+
+.box-right-cmt .form-group {
+    margin-bottom: 0;
+}
+
+.box-right-cmt button {
+    margin-top: 4px;
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+    display:inline-block;
+}
